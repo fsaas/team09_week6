@@ -11,7 +11,7 @@ import static org.mockito.Mockito.mock;
  * Created by tchi on 2016. 4. 25..
  */
 public class InGameSummonerQuerierTest {
-    private InGameSummonerQuerier querier;
+    private cnu.lecture.querier querier;
 
     @Before
     public void setup() {

@@ -18,7 +18,7 @@ public class App {
             }
         };
 
-        InGameSummonerQuerier querier = new InGameSummonerQuerier(apiKey, listener);
+        querier querier = new InGameSummonerQuerier(apiKey, listener);
         querier.queryGameKey(summonerName);
     }
 }
